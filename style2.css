@@ -261,19 +261,19 @@ nav a:hover {
     background-color: #5c05be; /* Зеленый фон */
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 1px;
+    margin: 10px;
     cursor: pointer;
     border-radius: 5px; /* Закругленные углы */
     position: absolute;  /* Абсолютное позиционирование */
-    bottom: 100px;          /* Располагаем чуть выше описания */
+    bottom: 5px;          /* Располагаем чуть выше описания */
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Стили для описания кнопки */
